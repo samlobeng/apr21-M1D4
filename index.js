@@ -54,7 +54,7 @@ let strivify = function (anyString) {
   if (anyString.indexOf("Strive") === 0) {
     return anyString;
   }
-  return anyString;
+  return addedString;
 };
 
 /* EXERCISE 6
