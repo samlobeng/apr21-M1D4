@@ -51,7 +51,7 @@ It should add the word "Strive" in front of the given string, but if the given s
 let strivify = function (anyString) {
   let frontWord = "Strive";
   let addedString = frontWord + " " + anyString;
-  if (anyString.indexOf("Strive")) {
+  if (anyString.indexOf("Strive") === 0) {
     return anyString;
   }
   return anyString;
