@@ -105,10 +105,10 @@ Write a function "giveMeRandom" which accepts a number n and returns an array co
 let giveMeRandom = function(n){
   let nArray = []
   for(let x= 1; x<10; x++){
-    let randomNumbers = Math.floor(Math.random()* x)
+    let randomNumbers = Math.floor(Math.random()* 10)
     nArray.push(randomNumbers); 
   }
   return nArray;
   
 } 
-console.log(giveMeRandom(10));
+console.log(giveMeRandom(50));
