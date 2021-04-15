@@ -104,7 +104,7 @@ Write a function "giveMeRandom" which accepts a number n and returns an array co
 
 let giveMeRandom = function(n){
   let nArray = []
-  for(let x= 1; x<10; x++){
+  for(let x= 1; x<=n; x++){
     let randomNumbers = Math.floor(Math.random()* 10)
     nArray.push(randomNumbers); 
   }
